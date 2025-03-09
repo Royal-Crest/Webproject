@@ -416,4 +416,16 @@ footer{
     .grid-card:nth-child(1), .grid-card:nth-child(3){
         grid-row: 1/2;
     }
+/* Footer */
+footer {
+    height: auto; /* Adjust height dynamically */
+    padding: 1.5rem 1rem;
+    text-align: center;
+    flex-direction: column;
+    gap: 0.5rem; /* Space between elements */
+}
+
+.foot {
+    font-size: 1rem; /* Reduce font size for smaller screens */
+}
 }
